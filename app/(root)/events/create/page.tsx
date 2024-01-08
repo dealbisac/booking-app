@@ -1,3 +1,4 @@
+import EventForm from "@/components/shared/EventForm"
 import { auth } from "@clerk/nextjs";
 
 const CreateEvent = () => {
@@ -12,7 +13,7 @@ const CreateEvent = () => {
             </section>
 
             <div className="wrapper my-8">
-                EventForm
+                <EventForm userId={userId} type="Create" />
             </div>
         </>
     )
