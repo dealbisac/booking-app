@@ -97,6 +97,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                 }
             } catch (error) {
                 console.log(error);
+                console.log(Hello);
             }
         }
     }
