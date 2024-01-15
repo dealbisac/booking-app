@@ -32,7 +32,7 @@ export const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
                 <AlertDialogHeader>
                     <AlertDialogTitle>Are you sure you want to delete?</AlertDialogTitle>
                     <AlertDialogDescription className="p-regular-16 text-grey-600">
-                        This will permanently delete this event
+                        This will permanently delete this event. Are you sure you want to continue?
                     </AlertDialogDescription>
                 </AlertDialogHeader>
 
