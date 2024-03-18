@@ -44,6 +44,7 @@ export const checkoutOrder = async (order: CheckoutOrderParams) => {
     }
 }
 
+// CREATE ORDER FOR THE STRIPE
 export const createOrder = async (order: CreateOrderParams) => {
     try {
         await connectToDatabase();
