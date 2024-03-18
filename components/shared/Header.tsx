@@ -11,10 +11,10 @@ const Header = () => {
             <div className="wrapper flex items-center justify-between">
                 <Link href="/" className="w-36">
                     <Image
-                        src="/assets/images/logo.svg"
-                        alt="Booking Logo"
-                        width={128}
-                        height={38}
+                        src="/assets/images/logo.png"
+                        alt="Book Me Ticket Logo"
+                        width={500}
+                        height={120}
                     />
                 </Link>
 

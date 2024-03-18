@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: 'Booking App',
   description: 'Create, Manage and Book your event easily.',
   icons: {
-    icon: '/assets/images/logo.svg',
+    icon: '/assets/images/logo.png',
   }
 
 }
